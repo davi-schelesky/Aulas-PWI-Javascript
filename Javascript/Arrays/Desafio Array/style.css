@@ -16,10 +16,21 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    height: 90vh;
+    height: 70vh;
     width: 100vw;
 }
 
+.barra-pesquisa {
+    margin-top: 20px;
+}
+form {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .card {
     background-color: #fff;
     display: flex;
